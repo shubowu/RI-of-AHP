@@ -30,5 +30,3 @@ for i in range(100):    # order of iteration
 max_alpha_total = pd.DataFrame(max_alpha_total, columns=['lambda'])
 RI = pd.DataFrame(RI, columns=['RI'])
 result = pd.concat([max_alpha_total, RI], axis=1)
-# result.to_excel(r'E:\项目论文\基于PSC检查数据的船舶滞留预测分析\data\RI_result.xlsx')
-
